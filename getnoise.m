@@ -1,4 +1,5 @@
 function getnoise()
+% ok
 % the function getnoise calculates the true noise which is
 % added to the original image
 

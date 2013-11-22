@@ -1,4 +1,5 @@
 function crossover()
+% ok
 % the crossover function executes crossover operation on the current
 % population. 
 % Steps:
@@ -24,8 +25,4 @@ end
 
 % make new population
 POP = newPop;
-
-% recalculate the fitness (optional)
-getpopulationerrors();
-getpopulationfitnesses();
 end

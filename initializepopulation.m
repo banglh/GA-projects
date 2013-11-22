@@ -1,5 +1,5 @@
 function initializepopulation()
-
+% ok
 % function initializepopulation initializes a population with POP_SIZE
 % individuals.
 

@@ -1,4 +1,5 @@
 function mutation()
+% ok
 % the mutation function do mutation on each individuals
 
 global MUTATION_RATE
@@ -16,8 +17,4 @@ newPop(mutationPositions) = xor(newPop(mutationPositions), 1);
 
 % make new population
 POP = newPop;
-
-% calculate the fitness of individuals (optional)
-getpopulationerrors();
-getpopulationfitnesses();
 end

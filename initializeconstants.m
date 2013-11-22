@@ -1,3 +1,4 @@
+% ok
 global POP_SIZE
 global CROSSOVER_RATE
 global MUTATION_RATE
@@ -11,6 +12,7 @@ global MIN_NOISE_FREQ_ROW
 global MAX_NOISE_FREQ_ROW
 global MIN_NOISE_FREQ_COL
 global MAX_NOISE_FREQ_COL
+global MAX_NOISE_MEAN
 
 % population size
 POP_SIZE = 100;
@@ -26,15 +28,18 @@ N_GENERATIONS = 100;
 
 % max and min values of parameters
 MIN_NOISE_AMP = 0.0;
-MAX_NOISE_AMP = 30.0; 
+MAX_NOISE_AMP = 30.0;
 MIN_NOISE_FREQ_ROW = 0.0;
 MAX_NOISE_FREQ_ROW = 0.01;
-MIN_NOISE_FREQ_COL = 0.0; 
+MIN_NOISE_FREQ_COL = 0.0;
 MAX_NOISE_FREQ_COL = 0.01;
+
+% upper bound for the noise mean of pixels
+MAX_NOISE_MEAN = 30.0;
 
 % number of bits used to represent each parameter
 N_AMP_BITS = 8;
-N_FEQ_ROW_BITS = 8; 
+N_FEQ_ROW_BITS = 8;
 N_FEQ_COL_BITS = 8;
 
 %-------------- global variables ----------------

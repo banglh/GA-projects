@@ -1,4 +1,5 @@
 function selection()
+% ok
 % function selection using roulette selector to select individuals for the
 % next generation
 

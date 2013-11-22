@@ -1,4 +1,5 @@
 function [noiseAmp, noiseFreqRow, noiseFreqCol] = genetoparameters(gene)
+% ok
 % function genetoparameters convert a gene to parameters value
 
 global N_AMP_BITS

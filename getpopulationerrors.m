@@ -1,4 +1,5 @@
 function getpopulationerrors()
+% ok
 % function getpopulationerrors compute errors of each individuals
 global POP
 global ERRORS
